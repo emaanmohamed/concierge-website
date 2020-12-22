@@ -1,0 +1,409 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@font-face {
+  font-family: "tajawal";
+  src: url('Tajawal-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('Tajawal-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.navbar-brandText{
+    display: inline-block;
+    color: #EFD6AC;
+   padding-right: 7%;
+}
+.mHeaderBlockCon{
+    position: absolute;
+    background-image: url("../img/dubai-33972181_1920.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    direction: rtl;
+}
+.direction{
+    direction: rtl;
+}
+.view{
+    font-family: 'tajawal', sans-serif !important;
+}
+body,html{
+    font-family: 'tajawal', sans-serif;
+/*    direction: rtl;*/
+        overflow-x: hidden;
+        margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+        font-family: 'tajawal', sans-serif !important;
+}
+.navbar{
+ font-family: 'tajawal', sans-serif;
+}
+.page-footer,.top-nav-collapse{
+    background-color:#1C2331
+}
+.containerNavCon{
+    max-width: 100% !important;
+    padding: 1% 3%;
+}
+.navPagesCon{
+    padding-right: 10%;
+}
+.navPagesCon li
+{
+    font-size: 0.8rem;
+       padding: 0 20px;
+}
+.navbarIconcon a{
+    text-align-last: center;
+}
+.navbarIconcon img{
+    width: 85%;
+}
+.mailAndphone{
+    color: #efd6ac45 !important;
+    margin-right: 15px;
+}
+.navbarIconcon{
+    background-color: #efd6ac45;
+    border-radius: 50%;
+}
+.homePageMianText{
+    margin-top: 15%;
+    color: white;
+    text-align-last: right;
+    margin-right: 11%;
+    width: 37%;
+    max-width: 100%;
+}
+.homePageMianText h1{
+    font-size: 3rem;
+    margin-bottom: 6%;
+}
+.homePageMianText span{
+ margin-top: 20%;   
+}
+.searchPlaceInput{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd900;;
+     width: 40%;
+     height: 6vh;
+     margin-top: 3%;
+     padding-left: 10px;
+    background: url(../img/pin%204.png) no-repeat 7px 7px;
+    padding-right: 36px;
+    background-color: white;
+    background-position: 98% 50%;
+    background-size: 2.5%;
+    }
+.searchInputBlock{
+    padding-right: 10%;
+    text-align-last: right;
+}
+.searchPlaceButton img{
+    padding-right: 20%
+}
+.searchPlaceButton {
+  padding:0 18px;
+  width: 100px;
+  height: 48px;
+  padding: 0% 18px;
+  background-color: #C49D48; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+  border-radius: 35px;
+}  
+.searchPlaceButton:focus {
+    outline: none;
+}
+.sliderBlock{
+    background-image: url(../img/dubai.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.carousel_sectionConcBlock{
+    margin-top: 40%;
+}
+.sliderText{
+  text-align: center;
+  margin: auto;
+}
+.sliderText p{
+    width: 70%;
+    text-align-last: right;
+}
+.createYourTrip{
+    background-image: url(../img/NoPath%2049.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+      position: relative;
+    margin-top: 15%;
+}
+.createYourTripMain{
+        z-index: 2;
+    height: 60vh;
+/*      height: 100px;*/
+  width: 200px;
+  position: absolute;
+    margin-top: 10%;
+        height: 72%;
+    left: 12%;
+    left: 12%;
+}
+.createYourTripImgSec{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/createTrip.png);
+    height: 100vh;
+    height: 83vh;
+;}
+.createYourTripsec2{
+    background-color: #E2EAF0;
+    height: 83vh;
+}
+.title_20{
+    display: block !important;
+    text-align: -webkit-center !important;
+}
+.address{
+    text-align: -webkit-right;
+    color:#688095
+}
+.tripText1{
+    margin: 8% !important;
+    margin-top: 15%!important;
+}
+.tripText2{
+    margin: 4% 8% !important;
+}
+.tripblockDate2{
+      margin: 8% !important;
+    margin-top: 10%!important;
+        text-align-last: center;  
+}
+.tripblockDate2 button{
+    display: block;
+   margin: auto;
+   width: 40%;
+    margin-top: 3%;
+        direction: rtl;
+}
+.tripText1 h4,.tripText2 h4{
+    text-align-last: end;
+        font-weight: bold;
+}
+.tripText1 p,.tripText2 p{
+    padding-top: 5%;
+   text-align-last: end;
+}
+.imgTrip{
+    background-image: url(../img/dubai-33972181_1920.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    margin: 1%;
+}
+.pinTrip{
+        display: inline;
+    padding-left: 2%;
+}
+.nextStep{
+    width: 5%;
+    height: 4vh;
+    background: #C49D48 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    text-align-last: center;
+    display: inline-block;
+        margin-left: 7%;
+}
+.offerSecrionCon{
+    height:auto;
+    margin-top: 4%;
+}
+.offerText{
+    text-align-last: center;
+}
+.offerCard{
+    height: 51vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.photoGallarySocial {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+ 
+}
+
+/* Create four equal columns that sits next to each other */
+.photoGallarySocialImg {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  height: fit-content;
+
+}
+.socialSlidersection{
+    margin-top: 3%;
+}
+.socialSlidersection h5{
+    margin-bottom: 3%;
+        font-weight: bold;
+    text-align: center;
+}
+.socialTitle h5{
+    margin-top: 3%;
+        font-weight: bold;
+text-align-last: center;
+}
+.socialTitle p{
+    width: 40%;
+    text-align: -webkit-center;
+    margin: auto;
+    padding: 1% 0%;
+}
+.photoGallarySocialImg img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.socialMediaSlider{
+/*  margin: 0 7px !important;  */
+    width: 99%;
+}
+.broadCastBlock{
+    background-image: url(../img/brosdcastBack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    text-align: center;
+    color: white;
+    direction: rtl;
+   margin-top: 4%;
+ box-shadow: inset 0 0 0 2000px rgb(0,0,0,0.35);
+}
+.broadCastBlock p{
+    color: white;
+    opacity: 60%;
+}
+.broadCastBlock h4{
+    padding-top: 4%;
+}
+.brodCastInput{
+     border: 1px solid #2d9fd900;;
+     width: 40%;
+     height: 6vh;
+     margin-top: 1%;
+     padding-left: 10px;
+    padding-right: 36px;
+    background-color: white;
+
+}
+.brodCastButton img{
+    margin-left: 7%;
+    width: 20%;
+}
+.brodCastButton{
+  width: 100px;
+  height: 48px;
+  padding: 0% 18px;
+  background-color: #C49D48; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+  font-family: 'tajawal', sans-serif;
+}
+.footer_widget10{
+    direction: rtl;
+    background-color: white !important;
+}
+.footer_widget10 .copyright {
+    background: #688095 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    font-size: 15px;
+    padding: 2px 0 !important ;
+}
+.logoSection{
+    text-align: -webkit-right;
+}
+.concergeFooterText{
+    color:#EFD6AC;
+    display: inline-block;
+    padding-right: 3%;
+}
+.quick_linkConc{
+    display: inline-block;
+    text-align: justify;
+    margin: 0 10%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .photoGallarySocialImg {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .photoGallarySocialImg {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+input[type=text]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #C49D48;
+  opacity: 51%; /* Firefox */
+} 
+input[type=text]:focus {
+     outline: none;
+    
+}
+@media (min-width: 800px) and (max-width: 850px) {
+.navbar:not(.top-nav-collapse) {
+    background: #1C2331!important;
+ }
+}
+
+@media only screen and (max-width:768px){
+
+.homePageMianText {
+      width: fit-content;
+        margin-right: 10%;
+    text-align: -webkit-auto;
+
+  
+}
+}
