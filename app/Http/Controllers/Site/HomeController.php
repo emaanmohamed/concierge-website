@@ -19,7 +19,7 @@ class HomeController extends Controller
     return view('website.registrationIntro');
     }
     public function hotelRegistration(){
-    return view('website.hotelRegistration');
+    return view('website.hotel_registration');
     }
     public function addHotelApi(Request $request){
         $hotel=app('App\Http\Controllers\ApiController')->addHotel($request);
